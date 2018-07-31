@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit 4 Game </title>
     <!-- Added link to Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div id="enlarge">
+    <div class="bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -69,7 +69,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -81,10 +80,13 @@
                 <div class="col-md-4 ">
                 </div>
                 <div class="col-md-4">
-                    <h2>Random Number</h2>
+                    <h2>Random Number <span> </span>
+                        <sapn id="magicNumber">0</sapn>
+                    </h2>
+
                 </div>
                 <div class="col-md-4">
-                    <h2 class="random-number" id="magicNumber">
+                    <!-- <h2 class="random-number" id="magicNumber"> -->
                     </h2>
                 </div>
             </div>
@@ -93,10 +95,12 @@
                 <div class="col-md-5">
                 </div>
                 <div class="col-md-2">
-                    <h2>Win</h2>
+                    <h2>Win
+                        <sapn id="win">0</sapn>
+                    </h2>
                 </div>
                 <div class="col-md-1">
-                    <h2 class="random-number" id="win">0</h2>
+                    <!-- <h2 class="random-number" id="win">0</h2> -->
                 </div>
                 <div class="col-md-4">
                 </div>
@@ -105,10 +109,12 @@
                 <div class="col-md-5">
                 </div>
                 <div class="col-md-2">
-                    <h2>Loose</h2>
+                    <h2>Loose
+                        <span id="loose">0</span>
+                    </h2>
                 </div>
                 <div class="col-md-1">
-                    <h2 class="random-number" id="loose">0</h2>
+                    <!-- <h2 class="random-number" id="loose">0</h2> -->
                 </div>
                 <div class="col-md-4">
                 </div>
@@ -117,17 +123,17 @@
             <div class="row rowheight-img">
                 <div class="col-md-4">
                 </div>
-                <div class="col-md-1" id="crystal-Ruby">
+                <div class="col-md-1 img-fluid" id="crystal-Ruby">
                     <img src="./assets/images/image1.png">
                 </div>
-                <div class="col-md-1" id="crystal-Emrald">
+                <div class="col-md-1 img-fluid" id="crystal-Emrald">
                     <img src="./assets/images/image2.png ">
                 </div>
 
-                <div class="col-md-1" id="crystal-Sapphire">
+                <div class="col-md-1 img-fluid" id="crystal-Sapphire">
                     <img src="./assets/images/image3.png ">
                 </div>
-                <div class="col-md-1" id="crytal-Citrine">
+                <div class="col-md-1 img-fluid" id="crytal-Citrine">
                     <img src="./assets/images/image4.png ">
                 </div>
                 <div class="col-md-4">
@@ -138,16 +144,18 @@
                 <div class="col-md-4 ">
                 </div>
                 <div class="col-md-4" style="margin-top: 27px">
-                    <h2>Your total score</h2>
+                    <h2>Your total score 
+                        <span id="player-score">0</span>
+                    </h2>
                 </div>
-                <div class="col-md-4"  style="margin-top: 27px">
-                    <h2 class="random-number" id="player-score">0
+                <div class="col-md-4" style="margin-top: 27px">
+                    <!-- <h2 class="random-number" id="player-score">0 -->
                     </h2>
                 </div>
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
-<script type="text/javascript" src="./assets/javascript/game.js"></script>
 
 </html>

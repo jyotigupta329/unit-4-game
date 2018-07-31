@@ -80,7 +80,7 @@ function reset() {
 };
 
 $(function () {
-    $('#enlarge').animate({ height: '800px' }, 1000, 'linear');
+    $('#enlarge').animate({ height: '100%' }, 1000, 'linear');
 });
 
 $('#myModal').on('shown.bs.modal', function () {

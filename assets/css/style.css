@@ -1,16 +1,49 @@
-#enlarge {
-    background-image: url("https://data.whicdn.com/images/262142884/original.gif");
+/* #enlarge {
+    background-image: url("https://data.whicdn.com/images/262142884/original.gif") no-repeat center center fixed;
     position:absolute;
     width: 100%;
     height: auto;
-  }
-.rowheight{
-height: 72px;
+  } */
+
+  body, html {
+    height: 100%;
 }
 
-.rowheight-img{
+.bg { 
+    /* The image used */
+    background-image: url("https://data.whicdn.com/images/262142884/original.gif");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+  /* #enlarge { */
+    /* background: url("https://data.whicdn.com/images/262142884/original.gif") no-repeat center center fixed; */
+    /* position:absolute; */
+    /* width: 100%; */
+    /* height: auto; */
+    /* background-size: cover; */
+  /* } */
+
+/* .rowheight{
+height: 72px;
+} */
+
+/* .rowheight-img{
     height: 109px;
-    }
+    } */
+
+    .fixed-panel {
+        min-height: 10;
+        max-height: 10;
+        overflow-y: scroll;
+      }
 
   h1{
     color: #FFD700;
@@ -39,7 +72,7 @@ height: 72px;
     font-weight: bolder;
     font-size: 35px;
     padding: 10px;
-    margin-left: -50px;
+    /* margin-left: -50px; */
   }
 
   h3{
@@ -54,16 +87,23 @@ height: 72px;
 
   .random-number{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float: left;
-    /* background: #FFD700; */
+    /* float: left; */
     color: #FFD700;
     height: 42px;
-    margin-left: -100px;
-    font-size: 35px;
+    /* margin-left: -100px; */
+    /* font-size: 35px; */
   }
 
   img{
     width: 77px;
     height: 84px;
-    margin-top: 18px;
+    max-width: 400px;
+    /* margin-top: 18px; */
   }
+  
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+}

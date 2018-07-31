@@ -1,16 +1,9 @@
 #enlarge {
-    background-image: url("https://data.whicdn.com/images/262142884/original.gif");
-    position:absolute;
+    background-image: url("http://4hdwallpapers.com/wp-content/uploads/2013/04/Chubbylicious-The-Universe.jpg");
+    height: 0;
     width: 100%;
-    height: auto;
+    position:absolute;
   }
-.rowheight{
-height: 72px;
-}
-
-.rowheight-img{
-    height: 109px;
-    }
 
   h1{
     color: #FFD700;
@@ -38,7 +31,7 @@ height: 72px;
     font-family: fantasy;
     font-weight: bolder;
     font-size: 35px;
-    padding: 10px;
+    padding: 36px;
     margin-left: -50px;
   }
 
@@ -55,15 +48,15 @@ height: 72px;
   .random-number{
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
-    /* background: #FFD700; */
-    color: #FFD700;
-    height: 42px;
+    background: #FFD700;
+    color: black;
+    height: 52px;
     margin-left: -100px;
     font-size: 35px;
   }
 
   img{
-    width: 77px;
-    height: 84px;
-    margin-top: 18px;
+   width: 15px;
+   height: 15px;
+
   }
